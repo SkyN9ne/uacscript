@@ -91,7 +91,7 @@ End Sub
 If WScript.Arguments.Named.Exists("RESTART") Then
     RunAsAdmin
 ElseIf HasAdmin() Then
-	Message "U Wot M8? This is a elevation test and we're already admin!", vbCritical
+	Message "WTF U doing man? This is a elevation test and we're already admin!", vbCritical
 Else
     Elevate
 End If
